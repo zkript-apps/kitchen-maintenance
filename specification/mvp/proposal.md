@@ -6,8 +6,8 @@
 
 **Prepared For:** Snow Kitchen Equipment Maintenance  
 **Location:** Abu Dhabi, UAE  
-**Date:** January 29, 2026
-**Prepared By:** Zkript Solutions OPC  
+**Date:** January 29, 2026  
+**Prepared By:** [Zkript Solutions OPC](https://www.zkript.dev)  
 **Version:** 1.0
 
 ---
