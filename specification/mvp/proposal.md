@@ -1,4 +1,4 @@
-# Project Proposal
+# Zkript - Project Proposal
 
 ## Snow Kitchen Equipment Maintenance Management System
 
@@ -6,7 +6,8 @@
 
 **Prepared For:** Snow Kitchen Equipment Maintenance  
 **Location:** Abu Dhabi, UAE  
-**Date:** January 29, 2026  
+**Date:** January 29, 2026
+**Prepared By:** Zkript Solutions OPC  
 **Version:** 1.0
 
 ---
