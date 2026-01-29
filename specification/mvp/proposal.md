@@ -28,7 +28,7 @@ We are pleased to submit this proposal for the development of a comprehensive **
 | Objective | Description |
 |-----------|-------------|
 | Automate AMC Scheduling | Automatic notifications for upcoming annual maintenance services |
-| Centralize Communications | Unified chatbot integration across WhatsApp, Viber, and Telegram |
+| Centralize Communications | Chatbot integration via **one platform** (WhatsApp, Viber, OR Telegram - client's choice) |
 | Streamline Operations | Efficient technician assignment and job tracking |
 | Enable Data Analytics | Comprehensive dashboard with charts, reports, and filtering |
 
@@ -36,7 +36,7 @@ We are pleased to submit this proposal for the development of a comprehensive **
 
 1. **Client Management Module** - AMC and On-Call client registration with equipment registry
 2. **Notification System** - Automated reminders at 30, 14, 7, and 1 day before service
-3. **Chatbot Integration** - WhatsApp, Viber, and Telegram support
+3. **Chatbot Integration** - One messaging platform (WhatsApp, Viber, OR Telegram)
 4. **Technician Management** - Assignment, scheduling, and status tracking
 5. **Admin Dashboard** - Analytics, reports, and system management
 6. **User Management** - Role-based access control (Admin, Operations, Technician)
@@ -64,7 +64,7 @@ gantt
     AMC Scheduling Logic         :p6, after p4, 5d
     section Phase 4
     Chatbot Development          :p7, after p5, 10d
-    WhatsApp/Viber/Telegram APIs :p8, after p6, 8d
+    Messaging Platform API       :p8, after p6, 8d
     section Phase 5
     Technician Module            :p9, after p7, 7d
     Job Assignment System        :p10, after p8, 5d
@@ -97,8 +97,8 @@ gantt
 | | - Email/SMS integration | | |
 | **Phase 4** | Chatbot Integration | Week 4-5 | Feb 22 - Mar 7, 2026 |
 | | - Chatbot conversation flows | | |
-| | - WhatsApp Business API | | |
-| | - Viber & Telegram integration | | |
+| | - Selected platform API integration | | |
+| | - (WhatsApp OR Viber OR Telegram) | | |
 | **Phase 5** | Technician & Assignment | Week 5-6 | Mar 1-14, 2026 |
 | | - Technician management | | |
 | | - Job assignment system | | |
@@ -140,7 +140,7 @@ gantt
 | **Development** | | |
 | Backend Development | API, Database, Business Logic | ₱45,000.00 |
 | Frontend Development | Admin Dashboard, UI/UX | ₱35,000.00 |
-| Chatbot Integration | WhatsApp, Viber, Telegram APIs | ₱25,000.00 |
+| Chatbot Integration | One platform (WhatsApp OR Viber OR Telegram) | ₱25,000.00 |
 | **Infrastructure** | | |
 | Cloud Setup | Server configuration, SSL, Domain | ₱10,000.00 |
 | Third-party Services | SMS Gateway, Email Service | ₱5,000.00 |
@@ -172,7 +172,7 @@ gantt
 |--------|----------|---------|
 | **Client Management** | AMC & On-Call client registration, Equipment registry, Service history | [View Requirements](./business-requirements.md#51-client-management-module) |
 | **Notification System** | Automated reminders (30/14/7/1 days), Multi-channel notifications | [View Flow](./flowcharts.md#3-amc-notification-flow) |
-| **Chatbot** | WhatsApp, Viber, Telegram integration, Inquiry handling, Human handoff | [View Flow](./flowcharts.md#4-chatbot-inquiry-flow) |
+| **Chatbot** | One platform integration (WhatsApp/Viber/Telegram), Inquiry handling, Human handoff | [View Flow](./flowcharts.md#4-chatbot-inquiry-flow) |
 | **Technician Management** | Profiles, Specializations, Availability tracking | [View Requirements](./business-requirements.md#55-technician-management-module) |
 | **Job Assignment** | Smart assignment, Priority handling, Status updates | [View Flow](./flowcharts.md#6-technician-assignment-flow) |
 | **Admin Dashboard** | Real-time metrics, Analytics charts, Custom filtering | [View Flow](./flowcharts.md#8-admin-dashboard-flow) |
@@ -206,11 +206,14 @@ The following features can be developed in future phases:
 
 | Feature | Estimated Cost |
 |---------|----------------|
+| Additional Messaging Platform Integration | ₱15,000 - ₱25,000 per platform |
 | Mobile App for Technicians | ₱50,000 - ₱80,000 |
 | Inventory/Spare Parts Management | ₱30,000 - ₱50,000 |
 | Financial/Invoicing Module | ₱40,000 - ₱60,000 |
 | GPS Tracking for Technicians | ₱25,000 - ₱40,000 |
 | Integration with Accounting Software | ₱20,000 - ₱35,000 |
+
+> **Note:** MVP includes ONE messaging platform. Additional platforms (WhatsApp, Viber, or Telegram) can be added in future phases.
 
 > 📋 *For complete scope details, see [BRD - Scope Section](./business-requirements.md#4-scope)*
 
@@ -223,7 +226,8 @@ The following features can be developed in future phases:
 - Provide timely feedback and approvals
 - Supply necessary business information and assets
 - Ensure availability for testing and training sessions
-- Provide access to required third-party accounts (WhatsApp Business, etc.)
+- **Select preferred messaging platform** (WhatsApp, Viber, OR Telegram)
+- Provide access to required third-party accounts for selected platform
 
 ### 7.2 Change Requests
 
@@ -260,10 +264,11 @@ The following features can be developed in future phases:
 ## 9. Next Steps
 
 1. **Review** this proposal and provide feedback
-2. **Clarify** any questions or concerns
-3. **Approve** the scope, timeline, and cost
-4. **Sign** the project agreement
-5. **Kickoff** the project with initial payment
+2. **Select** preferred messaging platform (WhatsApp, Viber, OR Telegram)
+3. **Clarify** any questions or concerns
+4. **Approve** the scope, timeline, and cost
+5. **Sign** the project agreement
+6. **Kickoff** the project with initial payment
 
 ---
 
@@ -278,6 +283,7 @@ By signing below, both parties agree to the terms outlined in this proposal.
 | **Company:** | Snow Kitchen Equipment Maintenance |
 | **Name:** | |
 | **Title:** | |
+| **Preferred Messaging Platform:** | ☐ WhatsApp  ☐ Viber  ☐ Telegram |
 | **Signature:** | |
 | **Date:** | |
 
