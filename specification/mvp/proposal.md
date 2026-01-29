@@ -11,6 +11,40 @@
 
 ---
 
+## Table of Contents
+
+1. [Executive Summary](#1-executive-summary)
+2. [Project Overview](#2-project-overview)
+   - [2.1 Objectives](#21-objectives)
+   - [2.2 Key Deliverables](#22-key-deliverables)
+3. [Project Timeline](#3-project-timeline)
+   - [Detailed Timeline Breakdown](#detailed-timeline-breakdown)
+   - [Milestones](#milestones)
+4. [Project Cost](#4-project-cost)
+   - [Cost Breakdown](#cost-breakdown)
+   - [Optional Monthly Retainer](#optional-monthly-retainer-after-warranty)
+   - [Payment Terms](#payment-terms)
+5. [What's Included](#5-whats-included)
+   - [5.1 Software Features](#51-software-features)
+   - [5.2 Technical Deliverables](#52-technical-deliverables)
+   - [5.3 Support & Warranty](#53-support--warranty-included)
+   - [5.4 Monthly Retainer (Optional)](#54-monthly-retainer-optional)
+6. [What's NOT Included (Future Phases)](#6-whats-not-included-future-phases)
+7. [Terms & Conditions](#7-terms--conditions)
+   - [7.1 Client Responsibilities](#71-client-responsibilities)
+   - [7.2 Change Requests](#72-change-requests)
+   - [7.3 Intellectual Property](#73-intellectual-property)
+   - [7.4 Confidentiality](#74-confidentiality)
+8. [Why Choose Us](#8-why-choose-us)
+9. [Next Steps](#9-next-steps)
+10. [Acceptance](#10-acceptance)
+    - [Client](#client)
+    - [Developer](#developer)
+- [Contact Information](#contact-information)
+- [Appendix: Related Documents](#appendix-related-documents)
+
+---
+
 ## 1. Executive Summary
 
 We are pleased to submit this proposal for the development of a comprehensive **Maintenance Management System** for Snow Kitchen Equipment Maintenance. This solution will streamline your operations by automating service scheduling, enabling multi-channel customer communication, and providing real-time analytics for data-driven decision making.
@@ -153,6 +187,14 @@ gantt
 | | | |
 | **TOTAL** | | **₱150,000.00** |
 
+### Optional Monthly Retainer (After Warranty)
+
+| Item | Cost (PHP) |
+|------|------------|
+| Monthly Retainer Fee | ₱25,000.00 / month |
+
+> *The retainer is optional and begins after the 1-month warranty period. See [Section 5.4](#54-monthly-retainer-optional) for details.*
+
 ### Payment Terms
 
 | Milestone | Percentage | Amount (PHP) | Due Date |
@@ -190,13 +232,41 @@ gantt
 - API documentation
 - User manual & training materials
 
-### 5.3 Support & Warranty
+### 5.3 Support & Warranty (Included)
 
 | Item | Duration |
 |------|----------|
-| Bug fixes & patches | 3 months after go-live |
-| Technical support (email) | 3 months after go-live |
+| Bug fixes & patches | 1 month after go-live |
+| Technical support (email) | 1 month after go-live |
 | System updates | As needed during warranty |
+
+### 5.4 Monthly Retainer (Optional)
+
+After the 1-month warranty period, an **optional monthly retainer** is available for ongoing support and maintenance.
+
+#### Retainer Fee: ₱25,000.00 / month
+
+| Service | Description |
+|---------|-------------|
+| **Priority Support** | Response within 24 hours for issues and inquiries |
+| **Bug Fixes** | Resolution of any system bugs or errors |
+| **Minor Enhancements** | Small feature tweaks and improvements (up to 8 hours/month) |
+| **System Monitoring** | Regular health checks and performance monitoring |
+| **Security Updates** | Security patches and vulnerability fixes |
+| **Database Maintenance** | Backup verification and optimization |
+| **Platform Updates** | Messaging API updates and compatibility fixes |
+
+#### Retainer Terms
+
+| Term | Details |
+|------|---------|
+| Billing Cycle | Monthly, due on the 1st of each month |
+| Minimum Commitment | None (cancel anytime with 30-day notice) |
+| Unused Hours | Do not roll over to next month |
+| Additional Work | Beyond 8 hours billed at ₱500/hour |
+| Start Date | After 1-month warranty period ends |
+
+> **Note:** This retainer is **optional**. Without a retainer, support will be billed on a per-incident basis at standard rates.
 
 ---
 
@@ -284,6 +354,7 @@ By signing below, both parties agree to the terms outlined in this proposal.
 | **Name:** | |
 | **Title:** | |
 | **Preferred Messaging Platform:** | ☐ WhatsApp  ☐ Viber  ☐ Telegram |
+| **Monthly Retainer (₱25,000/mo):** | ☐ Yes, I want the retainer  ☐ No, maybe later |
 | **Signature:** | |
 | **Date:** | |
 
